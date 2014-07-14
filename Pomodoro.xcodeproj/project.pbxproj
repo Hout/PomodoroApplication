@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1283A9AE19742FD400270760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9AD19742FD400270760 /* AppDelegate.swift */; };
-		1283A9B019742FD400270760 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9AF19742FD400270760 /* FirstViewController.swift */; };
-		1283A9B219742FD400270760 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9B119742FD400270760 /* SecondViewController.swift */; };
+		1283A9B019742FD400270760 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9AF19742FD400270760 /* TimerViewController.swift */; };
+		1283A9B219742FD400270760 /* TrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9B119742FD400270760 /* TrendsViewController.swift */; };
 		1283A9B519742FD400270760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1283A9B319742FD400270760 /* Main.storyboard */; };
 		1283A9B719742FD400270760 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1283A9B619742FD400270760 /* Images.xcassets */; };
 		1283A9C319742FD400270760 /* PomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9C219742FD400270760 /* PomodoroTests.swift */; };
@@ -29,13 +29,14 @@
 		1283A9A819742FD400270760 /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1283A9AC19742FD400270760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1283A9AD19742FD400270760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1283A9AF19742FD400270760 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1283A9B119742FD400270760 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1283A9AF19742FD400270760 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		1283A9B119742FD400270760 /* TrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsViewController.swift; sourceTree = "<group>"; };
 		1283A9B419742FD400270760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1283A9B619742FD400270760 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1283A9BC19742FD400270760 /* PomodoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1283A9C119742FD400270760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1283A9C219742FD400270760 /* PomodoroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTests.swift; sourceTree = "<group>"; };
+		1283A9CC1974356400270760 /* pomodoro.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = pomodoro.md; path = ../pomodoro.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				1283A9AD19742FD400270760 /* AppDelegate.swift */,
-				1283A9AF19742FD400270760 /* FirstViewController.swift */,
-				1283A9B119742FD400270760 /* SecondViewController.swift */,
+				1283A9AF19742FD400270760 /* TimerViewController.swift */,
+				1283A9B119742FD400270760 /* TrendsViewController.swift */,
 				1283A9B319742FD400270760 /* Main.storyboard */,
 				1283A9B619742FD400270760 /* Images.xcassets */,
 				1283A9AB19742FD400270760 /* Supporting Files */,
@@ -90,6 +91,7 @@
 		1283A9AB19742FD400270760 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1283A9CC1974356400270760 /* pomodoro.md */,
 				1283A9AC19742FD400270760 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -211,9 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1283A9B219742FD400270760 /* SecondViewController.swift in Sources */,
+				1283A9B219742FD400270760 /* TrendsViewController.swift in Sources */,
 				1283A9AE19742FD400270760 /* AppDelegate.swift in Sources */,
-				1283A9B019742FD400270760 /* FirstViewController.swift in Sources */,
+				1283A9B019742FD400270760 /* TimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +401,7 @@
 				1283A9C819742FD400270760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1283A9C919742FD400270760 /* Build configuration list for PBXNativeTarget "PomodoroTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +410,7 @@
 				1283A9CB19742FD400270760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
