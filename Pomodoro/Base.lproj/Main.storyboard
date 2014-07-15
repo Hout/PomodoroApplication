@@ -35,7 +35,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Timer" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Timer" image="TimerIcon" selectedImage="TimerIcon" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,7 +70,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Trends" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Trends" image="TrendsIcon" selectedImage="TrendsIcon" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,7 +113,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" id="fh3-Nv-ctf"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="SettingsIcon" selectedImage="SettingsIcon" id="fh3-Nv-ctf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lM8-KF-lAZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -141,8 +141,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="SettingsIcon" width="27" height="27"/>
+        <image name="TimerIcon" width="27" height="27"/>
+        <image name="TrendsIcon" width="27" height="27"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126DF35119748A140027D3AE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 126DF35019748A140027D3AE /* README.md */; };
 		1283A9AE19742FD400270760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9AD19742FD400270760 /* AppDelegate.swift */; };
 		1283A9B019742FD400270760 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9AF19742FD400270760 /* TimerViewController.swift */; };
 		1283A9B219742FD400270760 /* TrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9B119742FD400270760 /* TrendsViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126DF35019748A140027D3AE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1283A9A819742FD400270760 /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1283A9AC19742FD400270760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1283A9AD19742FD400270760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +38,6 @@
 		1283A9BC19742FD400270760 /* PomodoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1283A9C119742FD400270760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1283A9C219742FD400270760 /* PomodoroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTests.swift; sourceTree = "<group>"; };
-		1283A9CC1974356400270760 /* pomodoro.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = pomodoro.md; path = ../pomodoro.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +92,7 @@
 		1283A9AB19742FD400270760 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1283A9CC1974356400270760 /* pomodoro.md */,
+				126DF35019748A140027D3AE /* README.md */,
 				1283A9AC19742FD400270760 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,6 +216,7 @@
 			files = (
 				1283A9B219742FD400270760 /* TrendsViewController.swift in Sources */,
 				1283A9AE19742FD400270760 /* AppDelegate.swift in Sources */,
+				126DF35119748A140027D3AE /* README.md in Sources */,
 				1283A9B019742FD400270760 /* TimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
