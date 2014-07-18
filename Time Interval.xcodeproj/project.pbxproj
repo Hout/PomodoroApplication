@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		126DF35119748A140027D3AE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 126DF35019748A140027D3AE /* README.md */; };
+		126DF3531974BCA00027D3AE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF3521974BCA00027D3AE /* SettingsViewController.swift */; };
+		126DF35519757EBE0027D3AE /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF35419757EBE0027D3AE /* Timer.swift */; };
+		126DF35719757F420027D3AE /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126DF35619757F420027D3AE /* Clock.swift */; };
 		1283A9AE19742FD400270760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9AD19742FD400270760 /* AppDelegate.swift */; };
 		1283A9B019742FD400270760 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9AF19742FD400270760 /* TimerViewController.swift */; };
 		1283A9B219742FD400270760 /* TrendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9B119742FD400270760 /* TrendsViewController.swift */; };
 		1283A9B519742FD400270760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1283A9B319742FD400270760 /* Main.storyboard */; };
 		1283A9B719742FD400270760 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1283A9B619742FD400270760 /* Images.xcassets */; };
-		1283A9C319742FD400270760 /* PomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9C219742FD400270760 /* PomodoroTests.swift */; };
+		1283A9C319742FD400270760 /* TimeIntervalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283A9C219742FD400270760 /* TimeIntervalTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,16 +31,19 @@
 
 /* Begin PBXFileReference section */
 		126DF35019748A140027D3AE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1283A9A819742FD400270760 /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		126DF3521974BCA00027D3AE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		126DF35419757EBE0027D3AE /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		126DF35619757F420027D3AE /* Clock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		1283A9A819742FD400270760 /* Time Interval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Interval.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1283A9AC19742FD400270760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1283A9AD19742FD400270760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1283A9AF19742FD400270760 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		1283A9B119742FD400270760 /* TrendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsViewController.swift; sourceTree = "<group>"; };
 		1283A9B419742FD400270760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1283A9B619742FD400270760 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1283A9BC19742FD400270760 /* PomodoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1283A9BC19742FD400270760 /* Time IntervalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time IntervalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1283A9C119742FD400270760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1283A9C219742FD400270760 /* PomodoroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTests.swift; sourceTree = "<group>"; };
+		1283A9C219742FD400270760 /* TimeIntervalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,8 @@
 		1283A99F19742FD400270760 = {
 			isa = PBXGroup;
 			children = (
-				1283A9AA19742FD400270760 /* Pomodoro */,
-				1283A9BF19742FD400270760 /* PomodoroTests */,
+				1283A9AA19742FD400270760 /* Time Interval */,
+				1283A9BF19742FD400270760 /* TimeIntervalTests */,
 				1283A9A919742FD400270760 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,22 +76,26 @@
 		1283A9A919742FD400270760 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1283A9A819742FD400270760 /* Pomodoro.app */,
-				1283A9BC19742FD400270760 /* PomodoroTests.xctest */,
+				1283A9A819742FD400270760 /* Time Interval.app */,
+				1283A9BC19742FD400270760 /* Time IntervalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1283A9AA19742FD400270760 /* Pomodoro */ = {
+		1283A9AA19742FD400270760 /* Time Interval */ = {
 			isa = PBXGroup;
 			children = (
 				1283A9AD19742FD400270760 /* AppDelegate.swift */,
 				1283A9AF19742FD400270760 /* TimerViewController.swift */,
 				1283A9B119742FD400270760 /* TrendsViewController.swift */,
+				126DF3521974BCA00027D3AE /* SettingsViewController.swift */,
+				126DF35419757EBE0027D3AE /* Timer.swift */,
+				126DF35619757F420027D3AE /* Clock.swift */,
 				1283A9B319742FD400270760 /* Main.storyboard */,
 				1283A9B619742FD400270760 /* Images.xcassets */,
 				1283A9AB19742FD400270760 /* Supporting Files */,
 			);
+			name = "Time Interval";
 			path = Pomodoro;
 			sourceTree = "<group>";
 		};
@@ -98,12 +108,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1283A9BF19742FD400270760 /* PomodoroTests */ = {
+		1283A9BF19742FD400270760 /* TimeIntervalTests */ = {
 			isa = PBXGroup;
 			children = (
-				1283A9C219742FD400270760 /* PomodoroTests.swift */,
+				1283A9C219742FD400270760 /* TimeIntervalTests.swift */,
 				1283A9C019742FD400270760 /* Supporting Files */,
 			);
+			name = TimeIntervalTests;
 			path = PomodoroTests;
 			sourceTree = "<group>";
 		};
@@ -118,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1283A9A719742FD400270760 /* Pomodoro */ = {
+		1283A9A719742FD400270760 /* Time Interval */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1283A9C619742FD400270760 /* Build configuration list for PBXNativeTarget "Pomodoro" */;
+			buildConfigurationList = 1283A9C619742FD400270760 /* Build configuration list for PBXNativeTarget "Time Interval" */;
 			buildPhases = (
 				1283A9A419742FD400270760 /* Sources */,
 				1283A9A519742FD400270760 /* Frameworks */,
@@ -130,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = Pomodoro;
+			name = "Time Interval";
 			productName = Pomodoro;
-			productReference = 1283A9A819742FD400270760 /* Pomodoro.app */;
+			productReference = 1283A9A819742FD400270760 /* Time Interval.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1283A9BB19742FD400270760 /* PomodoroTests */ = {
+		1283A9BB19742FD400270760 /* Time IntervalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1283A9C919742FD400270760 /* Build configuration list for PBXNativeTarget "PomodoroTests" */;
+			buildConfigurationList = 1283A9C919742FD400270760 /* Build configuration list for PBXNativeTarget "Time IntervalTests" */;
 			buildPhases = (
 				1283A9B819742FD400270760 /* Sources */,
 				1283A9B919742FD400270760 /* Frameworks */,
@@ -148,9 +159,9 @@
 			dependencies = (
 				1283A9BE19742FD400270760 /* PBXTargetDependency */,
 			);
-			name = PomodoroTests;
+			name = "Time IntervalTests";
 			productName = PomodoroTests;
-			productReference = 1283A9BC19742FD400270760 /* PomodoroTests.xctest */;
+			productReference = 1283A9BC19742FD400270760 /* Time IntervalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1283A9A319742FD400270760 /* Build configuration list for PBXProject "Pomodoro" */;
+			buildConfigurationList = 1283A9A319742FD400270760 /* Build configuration list for PBXProject "Time Interval" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +195,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1283A9A719742FD400270760 /* Pomodoro */,
-				1283A9BB19742FD400270760 /* PomodoroTests */,
+				1283A9A719742FD400270760 /* Time Interval */,
+				1283A9BB19742FD400270760 /* Time IntervalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,6 +228,9 @@
 				1283A9B219742FD400270760 /* TrendsViewController.swift in Sources */,
 				1283A9AE19742FD400270760 /* AppDelegate.swift in Sources */,
 				126DF35119748A140027D3AE /* README.md in Sources */,
+				126DF35719757F420027D3AE /* Clock.swift in Sources */,
+				126DF35519757EBE0027D3AE /* Timer.swift in Sources */,
+				126DF3531974BCA00027D3AE /* SettingsViewController.swift in Sources */,
 				1283A9B019742FD400270760 /* TimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1283A9C319742FD400270760 /* PomodoroTests.swift in Sources */,
+				1283A9C319742FD400270760 /* TimeIntervalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +248,7 @@
 /* Begin PBXTargetDependency section */
 		1283A9BE19742FD400270760 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1283A9A719742FD400270760 /* Pomodoro */;
+			target = 1283A9A719742FD400270760 /* Time Interval */;
 			targetProxy = 1283A9BD19742FD400270760 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -335,7 +349,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Pomodoro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Time Interval";
 			};
 			name = Debug;
 		};
@@ -346,7 +360,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Pomodoro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Time Interval";
 			};
 			name = Release;
 		};
@@ -364,7 +378,7 @@
 				);
 				INFOPLIST_FILE = PomodoroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Time IntervalTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -379,7 +393,7 @@
 				);
 				INFOPLIST_FILE = PomodoroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Time IntervalTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -387,7 +401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1283A9A319742FD400270760 /* Build configuration list for PBXProject "Pomodoro" */ = {
+		1283A9A319742FD400270760 /* Build configuration list for PBXProject "Time Interval" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1283A9C419742FD400270760 /* Debug */,
@@ -396,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1283A9C619742FD400270760 /* Build configuration list for PBXNativeTarget "Pomodoro" */ = {
+		1283A9C619742FD400270760 /* Build configuration list for PBXNativeTarget "Time Interval" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1283A9C719742FD400270760 /* Debug */,
@@ -405,7 +419,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1283A9C919742FD400270760 /* Build configuration list for PBXNativeTarget "PomodoroTests" */ = {
+		1283A9C919742FD400270760 /* Build configuration list for PBXNativeTarget "Time IntervalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1283A9CA19742FD400270760 /* Debug */,

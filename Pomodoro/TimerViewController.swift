@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class TimerViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()

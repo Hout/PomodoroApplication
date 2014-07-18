@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1283A9A719742FD400270760"
-               BuildableName = "Pomodoro.app"
-               BlueprintName = "Pomodoro"
-               ReferencedContainer = "container:Pomodoro.xcodeproj">
+               BuildableName = "Time Interval.app"
+               BlueprintName = "Time Interval"
+               ReferencedContainer = "container:Time Interval.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1283A9BB19742FD400270760"
-               BuildableName = "PomodoroTests.xctest"
-               BlueprintName = "PomodoroTests"
-               ReferencedContainer = "container:Pomodoro.xcodeproj">
+               BuildableName = "Time IntervalTests.xctest"
+               BlueprintName = "Time IntervalTests"
+               ReferencedContainer = "container:Time Interval.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1283A9A719742FD400270760"
-            BuildableName = "Pomodoro.app"
-            BlueprintName = "Pomodoro"
-            ReferencedContainer = "container:Pomodoro.xcodeproj">
+            BuildableName = "Time Interval.app"
+            BlueprintName = "Time Interval"
+            ReferencedContainer = "container:Time Interval.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1283A9A719742FD400270760"
-            BuildableName = "Pomodoro.app"
-            BlueprintName = "Pomodoro"
-            ReferencedContainer = "container:Pomodoro.xcodeproj">
+            BuildableName = "Time Interval.app"
+            BlueprintName = "Time Interval"
+            ReferencedContainer = "container:Time Interval.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1283A9A719742FD400270760"
-            BuildableName = "Pomodoro.app"
-            BlueprintName = "Pomodoro"
-            ReferencedContainer = "container:Pomodoro.xcodeproj">
+            BuildableName = "Time Interval.app"
+            BlueprintName = "Time Interval"
+            ReferencedContainer = "container:Time Interval.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

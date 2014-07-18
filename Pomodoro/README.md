@@ -1,12 +1,12 @@
 ## Description
 
-Pomodoro is an IOS application designed to allow users to easily use the “Pomodoro” time management technique throughout their work day.  The user of this application will be able to set a “Time Interval” which is the length of each chunk of work time throughout the day.  The application will cycle between work and break time.  The user will also set a specified amount of time that he or she wishes to make each break period.
+Time Interval is an IOS application designed to allow users to easily break their day into time intervals.  The user of this application will be able to set a “Time Interval” which is the length of each chunk of work time throughout the day.  The application will cycle between work and break time.  The user will also set a specified amount of time that he or she wishes to make each break period.
 
 An example of this workflow would be a person selecting a work time interval of 24 minutes and a break time interval of 6 minutes.  Throughout the entire day, the user will work for 24 minutes and then immediately transition to a break for 6 minutes and back to a work period for 24 minutes and so on.
 
 This application will include 3 main tabs - “Timer”, “Trends”, and “Settings”.  Detailed below is a description of what each tab will display.
 
-Timer - This is the primary page of the application.  The user will spend the most time in this view.  In this view, the user will be able to see a visual display and timer of their current Pomodoro cycle and the amount of time left on the cycle.  The time, day and date will also be displayed here.  When using the application while working, a user will leave their phone turned on, on this screen.
+Timer - This is the primary page of the application.  The user will spend the most time in this view.  In this view, the user will be able to see a visual display and timer of their current time interval cycle and the amount of time left on the cycle.  The time, day and date will also be displayed here.  When using the application while working, a user will leave their phone turned on, on this screen.
 
 Trends - Trends will display the users overall work habits.  Trends displayed will include things such as:
 
